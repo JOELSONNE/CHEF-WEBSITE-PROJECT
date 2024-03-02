@@ -1,0 +1,19 @@
+body{
+    font-family:'Robot', sans-serif;
+    margin: 0;
+}
+
+h1{
+    padding: 8px;
+    background: rgba(rgb(225, 103, 103), 0, 0, 0, 8);
+    border-radius: 8px;
+    margin: 0;
+    font-size: 64px;
+    font-family: 'Roboto Slab', serif;
+}
+p{
+    line-height: 1.5;
+}
+main{
+   margin:0 auto; 
+}
