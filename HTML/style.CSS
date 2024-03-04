@@ -124,3 +124,31 @@ nav ul {
     background: border-box;
 
 }
+
+#menu-icon {
+    height: 100%;
+    font-size: 26px;
+    padding: 0 4px;
+    color: #eee;
+    display: none;
+    align-items: center;
+}
+/* search-icon*/
+#Search-icon {
+    color: white;
+    padding: 0 32px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#Search-icon :hover{
+    color: red;
+}
+
+/*slideout-menu*/
+#slideout-menu {
+    display: none;
+}
+#searchbox{
+    display: none;
+}
