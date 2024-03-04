@@ -17,6 +17,20 @@ p{
 main{
    margin:0 auto; 
 }
+input,
+textarea {
+    height: 30px;
+    padding: 0 16px;
+    font-size: 20px;
+    border: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-shadow: inset 3px 18px -4px rgba(93, 86, 74, 0);
+}
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
 /*Banner*/
 
 #banner {
@@ -39,3 +53,20 @@ main{
     padding: 0 24px;
     font-size: 24px;
 }
+
+/*search Box*/
+#searchbox {
+    position: fixed;
+    top: 24px;
+    right: 0;
+    width: 500px;
+    z-index: 50;
+    transition: 0.4s;
+    pointer-events: none;
+}
+
+#searchbox input {
+    height: 35px;
+    width: 95%;
+}
+   
