@@ -69,4 +69,58 @@ textarea:focus {
     height: 35px;
     width: 95%;
 }
-   
+
+/* Navigation */
+nav{
+    padding: 0;
+    background: #202020;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    font-family: 'Roboto Condensed',sans-serif;
+    justify-content: space-between;
+    display: flex;
+    font-size: 20px;
+    height: 72px;
+}
+nav a{
+    padding:0 32px;
+    color: #eee;
+    transition: 0.4s;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+
+}
+.active{
+    color: yellowgreen;
+} 
+
+#Dekater-img{
+    display: flex;
+    height: 100%;
+    background: transparent;
+    padding: 0 32px;
+    align-items: center;
+    color: white;
+    transition: 0.4s;
+}
+#Dekater-img img{
+    height: 78px;
+    width: auto;
+}
+#Dekater-img :hover{
+    background: border-box;
+
+}
