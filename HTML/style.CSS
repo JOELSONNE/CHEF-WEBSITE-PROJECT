@@ -24,7 +24,7 @@ textarea {
     font-size: 20px;
     border: none;
     font-family: 'Roboto Condensed', sans-serif;
-    box-shadow: inset 3px 18px -4px rgba(93, 86, 74, 0);
+    box-shadow: inset 8px 18px -4px rgba(93, 86, 74, 0);
 }
 input:focus,
 textarea:focus {
@@ -54,7 +54,7 @@ textarea:focus {
     font-size: 24px;
 }
 
-/*search Box*/
+/* search Box */
 #searchbox {
     position: fixed;
     top: 24px;
@@ -67,12 +67,12 @@ textarea:focus {
 
 #searchbox input {
     height: 35px;
-    width: 95%;
+    width: 100%;
 }
 
 /* Navigation */
 nav{
-    padding: 0;
+    padding: 0 16px 0 0;
     background: #202020;
     width: 100%;
     margin: 0;
@@ -83,6 +83,7 @@ nav{
     font-size: 20px;
     height: 72px;
 }
+
 nav a{
     padding:0 32px;
     color: #eee;
@@ -155,6 +156,8 @@ nav ul {
     margin-top: 72px;
     width: 100%;
     text-align: center;
+    opacity: 0;
+    pointer-events: none;
 }
 
 #slideout-menu ul{
@@ -180,7 +183,6 @@ nav ul {
     font-size: 20px;
     text-align: center;
 }
-
 
 #searchbox{
     display: none;
@@ -258,9 +260,8 @@ section{
     #menu-icon {
         display: flex;
     }
-
     #slideout-menu {
-        /* display:block; */
+        display: flex; 
     }
     #searchbox {
         display: none;
@@ -303,6 +304,7 @@ section{
     footer #social-media-footer a.fa-github {
     transition: 0.3s;
     color: black;
+    }
 }
   
 @media(max-width:600px){
@@ -320,9 +322,6 @@ section{
    #logo-img{
     padding: 0;
    }
-
-    
-
 }
 
 @media(min-width:720px){
@@ -414,13 +413,6 @@ footer #social-media-footer ul li:hover a .fa-github{
 footer #social-media-footer ul li:hover a .fa-apple{
     color:rgb(142, 142, 147);
 }
-
-
-
-
-
-
-
 
 /*btn-readmore*/
 
