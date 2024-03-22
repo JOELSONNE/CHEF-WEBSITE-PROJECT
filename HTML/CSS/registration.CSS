@@ -112,3 +112,50 @@
     animation-iteration-count: infinite;
     animation-duration: alternate;
 }
+.cont_forms_active_login >.img_back{
+    top: 0px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; 
+} 
+
+.cont_forms_active_sign_up >.img_back{
+    top: 0px;
+    left: -435px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.cont_info_log_sign_up{
+    position: absolute;
+    width: 640px;
+    height: 280px;
+    top: 100px;
+    z-index: 1;
+}
+.md_login{
+    position: relative;
+    float: left;
+    width: 50%;
+}
+
+.md_login h2{
+    font-weight: 400;
+    margin-top: 70px;
+    color: #757575;
+}
+.md_login p{
+    font-weight: 400;
+    margin-top: 15px;
+    width: 80%;
+    color: #37374f;
+}
+
+.btn_login{
+    background-color: #ff9800;
+}
