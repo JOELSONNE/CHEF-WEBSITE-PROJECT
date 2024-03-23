@@ -142,6 +142,7 @@
     position: relative;
     float: left;
     width: 50%;
+    height: ;
 }
 
 .md_login h2{
@@ -151,7 +152,7 @@
 }
 .md_login p{
     font-weight: 400;
-    margin-top: 15px;
+    margin-top: 10px;
     width: 80%;
     color: #37374f;
 }
@@ -350,17 +351,16 @@ from { -webkit-transform: scale(1);
     transition: all 0.5s;  
 }
 
-
-
-.form_login input,
-.form_sign_up input {
-    width: calc(100% - 30px); /* Adjust width with padding */
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    box-sizing: border-box;
+.form_sign_up input{
+    text-align: left;
+    padding: 15px 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 260px;
+    border: none;
+    color: #757575;
 }
+
 .form_login h2{
     margin-top: 110px;
     font-weight: 400;
