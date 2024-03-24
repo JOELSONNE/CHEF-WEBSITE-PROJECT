@@ -24,3 +24,5 @@ function ocultar_login_sign_up() {
         document.querySelector('.form_login').style.display = "none";
     }, 500);  
 }
+
+
