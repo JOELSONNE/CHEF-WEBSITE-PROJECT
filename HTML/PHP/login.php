@@ -7,10 +7,10 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
     $password = $_POST ['password'];
     
     //check user credentials in the database
-    $sql = "SELECT * FROM users WHERE email='$email' AND password='$password'";
+    $sql = "SELECT * FROM usersname WHERE email='$email' AND password='$password'";
     $result = $conn ->query($sql);
 
-    if($result -> num_row>0) {
+    if($result -> num_row > 0) {
         header("Location: dashboard.php");
     } else {
         echo "Invalid email or password";
