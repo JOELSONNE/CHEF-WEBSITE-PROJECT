@@ -1,7 +1,3 @@
-<?php
-session_start();
-    include("conncection.php")
-?>
 <!DOCTYPE html>
  <html lang="en">
  <meta charset="UTF-8">
@@ -67,6 +63,6 @@ session_start();
                 </div>
             </div>
         </div>
-        <script src= "./JAVA/registration.js"></script>
+        <script src= ""></script>
     </body>
 </html>
