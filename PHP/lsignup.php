@@ -1,3 +1,6 @@
+<?php
+   include ("connection.php")
+ ?>
 <!DOCTYPE html>
  <html lang="en">
  <meta charset="UTF-8">
@@ -42,27 +45,30 @@
                 <!---login & signup-->
                 <div class="cont_forms">
                     <div class="img_back">
-                        <img src="/Screenshot 2024-03-20 at 18.20.54.png" alt="picture background"/>
-                    </div>
+                        <img src=".//Screenshot 2024-03-20 at 18.20.54.png" alt="picture background"/>
+                    </div> <!---check the form--->
                     <div class="form_login">
-                        <a href= "./PHP/login.php" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+                        <form action ="PHP/login.php" method="post">
+                        <a href= "login.php" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
                         <h2>LOGIN</h2>
                         <input type="text" placeholder="Email"/>
                         <input type="password" placeholder="Password"/>
                         <button class="btn_login" onclick="cambiar_login()">LOGIN</button>
                     </div>
                     <div class="form_sign_up">
-                        <a href="./PHP/register.php" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+                        <form action ="PHP/register.php" method="post">
+                        <a href="register.php" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
                         <h2> SIGN UP</h2>
-                        <input type="text" placeholder="Email"/>
-                        <input type="text" placeholder="Username"/>
+                        
+                        <input type="text" name= "name" 11placeholder="Username"/>
                         <input type="password" placeholder="Password"/>
-                        <input type="password" placeholder="Confirm Password" />
+                        <
                         <button class="btn_sign_up" onclick="cambiar_sign_up()">SIGN UP</button>
                     </div>
                 </div>
             </div>
         </div>
-        <script src= ""></script>
+        <script src= "HTML/JAVA/registration.js"></script>
     </body>
 </html>
+ 

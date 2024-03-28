@@ -1,17 +1,15 @@
 <?php
 // Database configuration
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "user";
+$serverName = "localhost";
+$dBUsername= "root";
+$dBPassword = "";
+$dBName = "user";
 
 // create connection
-$con = mysqli_connect($servername,$username,$password,$database);
+$conn =mysqli_connect($serverName ,$dBUsername, $dBPassword, $dBPassword);
 
 // Check connection
-if ($conn->connect_error){
-    die("Connection failed:". $conn->connect_error);
+if (!$conn) {
+    die("Connection failed: ".mysqli_connect_error());
 }
-
-?>
 
